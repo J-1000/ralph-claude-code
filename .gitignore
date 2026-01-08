@@ -1,0 +1,11 @@
+# Ralph working files (generated during runs)
+prd.json
+progress.txt
+.last-branch
+
+# Archive is optional to commit
+# archive/
+
+# OS files
+.DS_Store
+Thumbs.db
