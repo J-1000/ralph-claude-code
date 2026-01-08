@@ -1,0 +1,34 @@
+{
+  "project": "ExampleApp",
+  "branchName": "ralph/example-feature",
+  "description": "Example feature for demonstrating Ralph loop",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Add example database field",
+      "description": "As a developer, I need to store the new field in the database.",
+      "acceptanceCriteria": [
+        "Add column to appropriate table",
+        "Generate and run migration successfully",
+        "Typecheck passes"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Display field in UI",
+      "description": "As a user, I want to see the new field displayed.",
+      "acceptanceCriteria": [
+        "Field displays in the appropriate component",
+        "Styling matches existing design",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
